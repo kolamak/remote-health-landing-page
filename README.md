@@ -1,5 +1,3 @@
-<!- *#####################################################################
-
 Project Name: REMOTE HEALTH LANDING PAGE
 
 Created Date: 4th, December 2025.
@@ -11,7 +9,6 @@ Modified By: Kolawole Opemipo Makanjuola.
 HISTORY-
 Date: 07-12-2025                 Comment By:
 
-*##################################################################### --!>
 
 # Remote Health Landing Page – 
 
