@@ -17,12 +17,12 @@ export const NavBar = () => {
         <div className="flex justify-between items-center h-16">
           
           <div className="flex items-center space-x-2">
-            <NavLink to="/home"> <img src="./Logo.svg" alt="remote health logo" /> </NavLink>
+            <NavLink to="/"> <img src="./Logo.svg" alt="remote health logo" /> </NavLink>
           </div>
 
           {/* Desktop Nav Links */}
           <div className="hidden md:flex text-[#484848] text-[20px] font-bold items-center space-x-8">
-            <NavLink to="/home" className={navLink}>
+            <NavLink to="/" className={navLink}>
               Home
             </NavLink>
             <NavLink to="/services" className={navLink}>
@@ -40,7 +40,7 @@ export const NavBar = () => {
           </div>
 
           {/* Desktop-join-us-Button */}
-          <NavLink to="/home" className="hidden md:block bg-[#007BFF] text-[20px] text-white px-6 py-2 rounded-lg font-bold hover:bg-blue-600 transition">
+          <NavLink to="/" className="hidden md:block bg-[#007BFF] text-[20px] text-white px-6 py-2 rounded-lg font-bold hover:bg-blue-600 transition">
             Join Us
           </NavLink>
 
@@ -93,7 +93,7 @@ export const NavBar = () => {
                 Contacts
               </NavLink>
               <NavLink 
-                to="/home" 
+                to="/" 
                className="text-[#484848] text-lg font-bold hover:text-[#007BFF] transition duration-500"
                 onClick={() => setIsOpen(false)}
               >

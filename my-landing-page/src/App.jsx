@@ -7,7 +7,7 @@ import Privacy from './pages/Privacy'
 import Contact from './pages/Contact'
 import { NavBar } from './pages/Navbar'
 import Products from './pages/Products'
-import { Hero } from './components/Hero'
+import { Home } from './pages/Home'
 import { Services } from './pages/Services'
 import { Footer } from './components/Footer'
 
@@ -18,8 +18,10 @@ function App() {
 			<div className="min-h-screen bg-white">
 				<NavBar />
 
+        {/* <Home /> */}
+        
 				<Routes>
-					<Route path="/home" element={<Hero />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/services" element={<Services />} />
 					<Route path="/products" element={<Products />} />
 					<Route path="/about" element={<About />} />

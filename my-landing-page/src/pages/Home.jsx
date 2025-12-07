@@ -3,10 +3,10 @@ import { GiMedicines } from "react-icons/gi";
 import { FaStethoscope } from "react-icons/fa";
 import { FcPhoneAndroid } from "react-icons/fc";
 
-export const Hero = () => {
+export const Home = () => {
   return (
     <>
-    <article className="py-20 px-4 sm:px-6 lg:px-8">
+    <article className="py-20 px-4 sm:px-6 lg:px-8 lg:h-[730px]">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20 mt-15">
 
         {/* Left Content */}
@@ -35,7 +35,7 @@ export const Hero = () => {
           <img
             src="/images/Frame-92.svg"
             alt="smiling doctor"
-            className="w-full max-w-sm sm:max-w-md"
+            className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl"
           />
         </div>
 
@@ -172,4 +172,4 @@ export const Hero = () => {
     </>
   );
 };
-export default Hero;
+export default Home;
