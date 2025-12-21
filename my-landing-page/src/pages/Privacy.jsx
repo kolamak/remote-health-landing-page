@@ -77,7 +77,7 @@ export const Products = () => {
         {/* IMAGE */}
         <div className="lg:w-[45%] flex justify-center">
           <img 
-            src="./public/images/frame-1321318985.svg" 
+            src="./images/frame-1321318985.svg" 
             alt="Frame" 
             className="w-full max-w-[450px] lg:max-w-[500px]"
           />

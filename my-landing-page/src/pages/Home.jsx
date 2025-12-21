@@ -6,41 +6,42 @@ import { FcPhoneAndroid } from "react-icons/fc";
 export const Home = () => {
   return (
     <>
-    <article className="py-20 px-4 sm:px-6 lg:px-8 lg:h-[730px]">
-      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20 mt-15">
+    <div className="min-h-screen flex items-center">
+    <article className=" sm:py-20 sm:px-6 lg:px-14 lg:py-0 lg:min-h-[730px] lg:flex lg:items-center">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
-        {/* Left Content */}
-        <div className="w-full md:w-1/2 text-center md:text-left">
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[48px] font-bold text-[#007BFF] leading-relaxed">
-            Your Health, <br /> Anywhere. Anytime.</h1>
+        <div className="w-full md:w-1/2 text-center md:text-left lg:text-left">
+            <h1 className="text-2xl md:text-6xl lg:text-6xl font-bold text-[#007BFF] leading-relaxed">
+                Your Health, Anywhere. Anytime.
+            </h1>
 
-        <p className="text-base sm:text-lg md:text-xl text-[#333435] font-normal py-10 mb-10 max-w-md mx-auto md:mx-0">
-            Get expert medical care from licensed professionals - all from the comfort of your home.</p>
+            <p className="text-xl md:text-xl lg:text-[24px] text-[#333435] font-normal py-8 lg:py-10 lg:mb-10 max-w-md lg:max-w-xl mx-auto md:mx-0 lg:mx-0">
+                Get expert medical care from licensed professionals - all from the comfort of your home.
+            </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-between border border-black rounded-lg overflow-hidden mt-15 max-w-[450px]">
-  
-        <div className="px-4 py-4 text-black font-normal text-center sm:text-left flex-1">
-        Connect with trusted doctors
+        <div className="flex sm:flex-row lg:w-[600px] lg:h-[59px] mx-[20px] items-center justify-between border-[2px] border-black lg:border-black rounded-lg mt-8 lg:mt-10 lg:max-w-lg">
+            <div className="items-center lg:border-[#000000] text-[#333435] px-2 pl-2 lg:pl-12 lg:max-w-[450px] lg:max-w-lg">
+                Connect with trusted doctors
+            </div>
+            <button className="bg-[#007BFF] text-white font-bold rounded-r-lg border-[3px]-[#007BFF] p-2 lg:p-4 hover:bg-blue-600 transition-colors overflow-hidden">        
+                Start a consultation
+            </button>
+        </div>
         </div>
 
- 
-        <button className="bg-[#007BFF] text-white font-bold px-6 py-4 hover:bg-blue-600 transition-colors w-full sm:w-auto">
-        Start a consultation
-        </button>
-        </div>
-        </div>
-
-        {/* Right Image */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-          <img
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-10 lg:mb-0">
+            <img
             src="/images/Frame-92.svg"
             alt="smiling doctor"
-            className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl"
-          />
+            className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl"
+            />
         </div>
 
       </div>
     </article>
+    </div>
+
+    {/* WHY CHOOSE US SECTION */}
 
     <main className="min-h-[70vh] py-20 px-4 sm:px-6 lg:px-8 bg-[#E6F2FF] justify-center">
         <div className="max-w-7xl mx-auto">
@@ -52,6 +53,7 @@ export const Home = () => {
         <div className='flex justify-center'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-12 lg:gap-12 max-w-7xl">
             
+            {/* card 1- Licensed Medical Experts */}
         <div className="w-full md:w-[427px] h-[327px] flex flex-col items-center justify-center gap-[12px] rounded-[20px] py-[28px] px-[12px] 
             bg-[#F7F8F8] opacity-100 shadow hover:shadow-lg transition-shadow duration-300">
         
@@ -62,8 +64,9 @@ export const Home = () => {
             <p className="text-[20px] font-normal mt-6 text-[#000000]">
             Connect with trusted doctors <br /> and nurses anytime, anywhere.</p>
         </div>
-            
-    
+
+
+            {/* card 2- 24/7 Virtual Assistance */}   
         <div className="w-full md:w-[427px] h-[327px] flex flex-col items-center justify-center gap-[12px] rounded-[20px] py-[28px] px-[12px] 
             bg-[#F7F8F8] opacity-100 shadow hover:shadow-lg transition-shadow duration-300">
     
@@ -73,7 +76,9 @@ export const Home = () => {
             <p className="text-[20px] font-normal mt-6 text-[#000000]">
             Healthcare that fits into your <br /> schedule, no waiting rooms.</p>
         </div>
-    
+
+
+            {/* card 3- E-Prescriptions & Referrals */}
         <div className="w-full md:w-[427px] h-[360px] flex flex-col items-center justify-center gap-[12px] rounded-[20px] py-[28px] px-[12px] 
             bg-[#F7F8F8] opacity-100 shadow hover:shadow-lg transition-shadow duration-300">
     
@@ -84,8 +89,10 @@ export const Home = () => {
             <p className="text-[20px] font-normal mt-6 text-[#000000]">
             Get prescriptions and referrals <br /> sent straight to your local <br /> pharmacy.</p>
         </div>
-    
-        <div className  ="w-full md:w-[427px] h-[360px] flex flex-col items-center justify-center gap-[12px] rounded-[20px] py-[28px] px-[12px] 
+        
+
+            {/* card 4- Private and Secured */}
+        <div className="w-full md:w-[427px] h-[360px] flex flex-col items-center justify-center gap-[12px] rounded-[20px] py-[28px] px-[12px] 
             bg-[#F7F8F8] opacity-100 shadow hover:shadow-lg transition-shadow duration-300">
     
            <h2 className="text-[20px] font-bold flex items-center gap-3"> 
