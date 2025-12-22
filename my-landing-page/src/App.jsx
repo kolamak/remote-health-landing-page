@@ -9,7 +9,7 @@ import { NavBar } from './pages/Navbar'
 import Products from './pages/Products'
 import { Home } from './pages/Home'
 import { Services } from './pages/Services'
-import { Footer } from './components/Footer'
+// import { Footer } from './components/Footer'
 
 function App() {
 	return (
@@ -29,6 +29,7 @@ function App() {
 					<Route path="/terms" element={<Terms />} />
 					<Route path="/privacy" element={<Privacy />} />
 					<Route path="/faq" element={<Faq />} />
+					<Route path="/Terms" element={<Terms />} />
 				</Routes>
 
 			</div>

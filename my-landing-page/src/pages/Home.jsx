@@ -20,11 +20,11 @@ export const Home = () => {
                 Get expert medical care from licensed professionals - all from the comfort of your home.
             </p>
 
-        <div className="flex sm:flex-row lg:w-[600px] lg:h-[59px] mx-[20px] items-center justify-between border-[2px] border-black lg:border-black rounded-lg mt-8 lg:mt-10 lg:max-w-lg">
+        <div className="flex sm:flex-row lg:w-[600px] lg:h-[59px] mx-[20px] items-center justify-between border border-black lg:border-black rounded-lg mt-8 lg:mt-10 lg:max-w-lg">
             <div className="items-center lg:border-[#000000] text-[#333435] px-2 pl-2 lg:pl-12 lg:max-w-[450px] lg:max-w-lg">
                 Connect with trusted doctors
             </div>
-            <button className="bg-[#007BFF] text-white font-bold rounded-r-lg border-[3px]-[#007BFF] p-2 lg:p-4 hover:bg-blue-600 transition-colors overflow-hidden">        
+            <button className="bg-[#007BFF] text-white font-bold rounded-r-lg border p-2 lg:p-4 hover:bg-blue-600 transition-colors overflow-hidden">        
                 Start a consultation
             </button>
         </div>

@@ -1,4 +1,5 @@
 import healthLogo from '../assets/health-Icon.svg'
+import { NavLink } from 'react-router-dom';
 const Footer_1 = () => {
   return (
 <div>
@@ -22,21 +23,55 @@ const Footer_1 = () => {
       <div>
         <h4 className="font-semibold mb-4 text-[#FFFFFF]">Products</h4>
         <ul className="space-y-3 text-sm font-medium text-[#FFFFFFB2]">
-          <li><a href="#" className="hover:text-white transition">Patient App</a></li>
-          <li><a href="#" className="hover:text-white transition">Doctor Portal</a></li>
-          <li><a href="#" className="hover:text-white transition">E-Prescription</a></li>
-          <li><a href="#" className="hover:text-white transition">Analytics (Coming Soon)</a></li>
+
+         <li>
+            <NavLink to="/products" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  Patient App
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/products" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  Doctor Portal
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/products" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                E-Prescription
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/products" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+               Analytics (Coming Soon)
+                </NavLink>
+            </li>
         </ul>
       </div>
+           
 
       {/* col-3-company */}
       <div>
         <h4 className="font-semibold mb-4 text-[#FFFFFF]">Company</h4>
         <ul className="space-y-3 text-sm font-medium text-[#FFFFFFB2]">
-          <li><a href="#" className="hover:text-white transition">About Us</a></li>
-          <li><a href="#" className="hover:text-white transition">Careers</a></li>
-          <li><a href="#" className="hover:text-white transition">Blog</a></li>
-          <li><a href="#" className="hover:text-white transition">Contact</a></li>
+           <li>
+          <NavLink to="/about" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  About Us
+              </NavLink> 
+                </li>   
+          <li>
+            <NavLink to="/" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  Careers
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  Blog
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/contacts" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  Contact
+                </NavLink>
+            </li>
         </ul>
       </div>
 
@@ -44,9 +79,22 @@ const Footer_1 = () => {
       <div>
         <h4 className="font-semibold mb-4 text-[#FFFFFF]">Legal</h4>
         <ul className="space-y-3 text-sm font-medium text-[#FFFFFFB2]">
-          <li><a href="#" className="hover:text-white transition">Terms of Service</a></li>
-          <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
-          <li><a href="#" className="hover:text-white transition">Cookie Policy</a></li>
+
+           <li>
+            <NavLink to="/" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  Terms of Service
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                  Privacy Policy
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/contacts" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                 Cookie Policy
+                </NavLink>
+            </li>
         </ul>
       </div>
     </div>
