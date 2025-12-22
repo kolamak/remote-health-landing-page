@@ -31,7 +31,6 @@ function App() {
 					<Route path="/faq" element={<Faq />} />
 				</Routes>
 
-				<Footer />
 			</div>
 		</BrowserRouter>
 	)

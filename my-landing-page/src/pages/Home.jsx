@@ -2,6 +2,7 @@ import { FaUserLock } from "react-icons/fa6";
 import { GiMedicines } from "react-icons/gi";
 import { FaStethoscope } from "react-icons/fa";
 import { FcPhoneAndroid } from "react-icons/fc";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -176,6 +177,7 @@ export const Home = () => {
         </div>
         </div>
     </section>
+    <Footer />
     </>
   );
 };
