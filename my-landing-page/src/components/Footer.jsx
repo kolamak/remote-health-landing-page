@@ -71,7 +71,7 @@ export const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/faq" className="text-sm md:text-base lg:text-[20px] text-[#484848] hover:text-[#007BFF] transition duration-500 font-medium">
+                <NavLink to="/faqs" className="text-sm md:text-base lg:text-[20px] text-[#484848] hover:text-[#007BFF] transition duration-500 font-medium">
                   FAQs
                 </NavLink>
               </li>

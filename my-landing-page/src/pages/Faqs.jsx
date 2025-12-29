@@ -1,14 +1,14 @@
 import Footer_1 from "../components/Footer_1"
 
-const Faq = () => {
+const Faqs = () => {
   return (
-    <>
+  <>
   <div className="min-h-screen bg-white font-sans">
 
    <header className="bg-blue-600 relative overflow-hidden">
     {/* <!-- Optional: Subtle background effect using absolute positioning --> */}
     <div className="absolute inset-0 bg-blue-700 opacity-80"></div>
-    <div className="absolute inset-0" style="background-image: url('data:image/svg+xml;charset=UTF-8,...'); background-size: cover;"></div>
+    <div className="absolute inset-0" style={{backgroundImage: "url('data:image/svg+xml;charset=UTF-8,...')", backgroundSize: "cover"}}></div>
 
     <div className="relative max-w-4xl mx-auto py-16 px-4 sm:py-20 md:py-24 text-center">
       <h1 className="text-2xl sm:text-3xl font-bold text-white mb-3">
@@ -100,9 +100,9 @@ const Faq = () => {
       
        {/* <!-- FAQ Item 9 --> */}
       <div className="border-b border-gray-200">
-        <button class="flex justify-between items-center w-full p-4 text-left">
-          <span class="font-semibold text-gray-800">Does RemoteHealth store my medical records (EMR)?</span>
-          <div class="w-4 h-4 bg-blue-500 rounded-full"></div>
+        <button className="flex justify-between items-center w-full p-4 text-left">
+          <span className="font-semibold text-gray-800">Does RemoteHealth store my medical records (EMR)?</span>
+          <div className="w-4 h-4 bg-blue-500 rounded-full"></div>
         </button>
       </div>
 
@@ -114,6 +114,6 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default Faqs;
 
 // i can write the function to display answers when questions are clicked when the ansswers are provided

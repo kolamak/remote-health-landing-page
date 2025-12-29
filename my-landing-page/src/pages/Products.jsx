@@ -14,7 +14,7 @@ export const Products = () => {
 
   <header className="bg-gradient-to-br from-blue-50 to-blue-200 py-16 px-4 sm:py-20 md:py-24 text-center lg:h-[520px] flex items-center">
     <div className="max-w-7xl mx-auto">
-      <h1 className="text-4xl sm:text-4xl lg:text-[50px] font-bold text-gray-800 mb-3">
+      <h1 className="text-4xl sm:text-4xl lg:text-[50px] font-bold text-[#282C34] mt-10 mb-3">
         Technology Built for Care
       </h1>
       <p className="text-[#637083] lg:text-[20px] max-w-lg mx-auto py-8">

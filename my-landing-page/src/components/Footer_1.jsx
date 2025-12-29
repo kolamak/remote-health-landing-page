@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 const Footer_1 = () => {
   return (
 <div>
-    <footer class="bg-[#282C34] text-[#FFFFFF] mt-12">
+    <footer className="bg-[#282C34] text-[#FFFFFF] mt-12">
   <div className="max-w-7xl mx-auto py-10 px-4 sm:px-8">
 
     <div className="grid grid-cols-1 md:grid-cols-4 gap-20 mb-8">
@@ -81,18 +81,23 @@ const Footer_1 = () => {
         <ul className="space-y-3 text-sm font-medium text-[#FFFFFFB2]">
 
            <li>
-            <NavLink to="/" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+            <NavLink to="/terms" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
                   Terms of Service
                 </NavLink>
             </li>
           <li>
-            <NavLink to="/" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+            <NavLink to="/privacy" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
                   Privacy Policy
                 </NavLink>
             </li>
           <li>
-            <NavLink to="/contacts" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+            <NavLink to="/" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
                  Cookie Policy
+                </NavLink>
+            </li>
+          <li>
+            <NavLink to="/faqs" className="hover:text-[#FFFFFF] transition duration-500 font-medium">
+                FAQs
                 </NavLink>
             </li>
         </ul>
